@@ -1,0 +1,9 @@
+
+# File bukti transaksi dan data pengguna
+uash/uploads/bukti_bayar/*
+uash/uploads/bukti_proses/*
+uash/uploads/profile/*
+
+# File sistem
+.DS_Store
+Thumbs.db
