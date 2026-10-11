@@ -76,7 +76,7 @@ Proyek ini dikembangkan sebagai bagian dari perkuliahan dan portofolio untuk men
 
 **5. Pelacakan Pesanan**
 
-![Pelacakan Pesanan](screenshots/pacakpesananuser.png)
+![Pelacakan Pesanan](screenshots/lacakpesananuser.png)
 
 
 ### Halaman Admin
