@@ -1,32 +1,29 @@
-# 🎮 Website Top Up Game
+# Website Top Up Game
 
-Website Top Up Game adalah aplikasi berbasis web yang dikembangkan untuk memudahkan pengguna menjelajahi katalog game, memilih item game, melakukan pemesanan, serta memantau status transaksi. Aplikasi ini juga dilengkapi dengan halaman admin untuk mengelola data game, item, pengguna, dan pesanan.
+Website Top Up Game adalah aplikasi berbasis web yang dikembangkan untuk memudahkan pengguna menjelajahi katalog game, memilih item game, melakukan pemesanan, serta memantau status pesanan. Aplikasi ini juga menyediakan halaman admin untuk mengelola data game, item game, pengguna, dan pesanan.
 
-Proyek ini dikembangkan sebagai bagian dari perkuliahan sekaligus portofolio untuk menerapkan keterampilan pengembangan web, pengelolaan basis data, autentikasi pengguna, dan pengolahan transaksi.
+Proyek ini dikembangkan sebagai bagian dari perkuliahan dan portofolio untuk menerapkan keterampilan pengembangan web serta pengelolaan basis data.
 
-## ✨ Fitur Utama
+## Fitur Utama
 
-### 👤 Fitur Pengguna
+### Fitur Pengguna
 
-- **Registrasi dan Login** — Membuat akun dan mengakses aplikasi.
-- **Katalog Game** — Menjelajahi daftar game yang tersedia.
-- **Detail Game** — Melihat informasi game dan item yang ditawarkan.
-- **Keranjang Belanja** — Mengelola item sebelum melakukan pemesanan.
-- **Checkout** — Melakukan proses pemesanan item game.
-- **Pelacakan Pesanan** — Memantau perkembangan status pesanan.
-- **Riwayat Transaksi** — Melihat daftar pesanan sebelumnya.
-- **Profil Pengguna** — Mengelola informasi akun.
-- **Informasi Layanan** — Mengakses halaman kontak, kebijakan privasi, serta syarat dan ketentuan.
+- **Registrasi Akun** — Menyediakan halaman pendaftaran akun baru.
+- **Login** — Memungkinkan pengguna masuk ke aplikasi menggunakan akun yang terdaftar.
+- **Beranda Pengguna** — Menampilkan halaman utama dan pilihan game yang tersedia.
+- **Detail Game** — Menampilkan informasi game dan item yang ditawarkan.
+- **Keranjang Belanja** — Menampilkan item yang dipilih sebelum melanjutkan pemesanan.
+- **Pelacakan Pesanan** — Menampilkan informasi status pesanan pengguna.
+- **Riwayat Pesanan** — Menampilkan daftar pesanan yang pernah dilakukan.
 
-### 🛠️ Fitur Admin
+### Fitur Admin
 
-- **Dashboard Admin** — Menampilkan ringkasan dan akses pengelolaan aplikasi.
-- **Manajemen Game** — Mengelola informasi dan data game.
-- **Manajemen Item** — Mengelola produk atau item game.
-- **Manajemen Pengguna** — Mengelola data pengguna.
-- **Pengelolaan Pesanan** — Mendukung administrasi pesanan dan pembaruan status transaksi.
+- **Pesanan Masuk** — Menampilkan pesanan pengguna untuk dikelola oleh admin.
+- **Manajemen Game** — Menyediakan halaman pengelolaan data game.
+- **Manajemen Item Game** — Menyediakan halaman pengelolaan item game.
+- **Manajemen Pengguna** — Menyediakan halaman pengelolaan data pengguna.
 
-## 🧰 Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 | Teknologi | Kegunaan |
 |---|---|
@@ -35,38 +32,84 @@ Proyek ini dikembangkan sebagai bagian dari perkuliahan sekaligus portofolio unt
 | HTML5 | Menyusun struktur halaman web |
 | CSS3 | Mengatur tampilan dan tata letak |
 | JavaScript | Mendukung interaksi pada halaman web |
-| XAMPP / Laragon | Menjalankan lingkungan pengembangan lokal |
+| XAMPP / Laragon | Menjalankan aplikasi di lingkungan lokal |
 | Git & GitHub | Mengelola versi dan menyimpan repositori kode |
 
-## 📸 Screenshot Aplikasi
+## Screenshot Aplikasi
 
-### Halaman Utama — Bagian 1
+
+**1. Beranda Guest**
 
 ![Halaman Utama 1](screenshots/home1.png)
 
-### Halaman Utama — Bagian 2
-
 ![Halaman Utama 2](screenshots/home2.png)
-
-### Halaman Utama — Bagian 3
 
 ![Halaman Utama 3](screenshots/home3.png)
 
-### Halaman Utama — Bagian 4
-
 ![Halaman Utama 4](screenshots/home4.png)
 
-## ⚙️ Persyaratan Sistem
+**2. Registrasi Akun**
 
-Sebelum menjalankan aplikasi, pastikan perangkat memiliki:
+![Registrasi Akun](screenshots/registerakunuser.png)
+
+**3. Login**
+
+![Halaman Login](screenshots/halamanlogin.png)
+
+### Halaman Pengguna
+
+**1. Beranda Pengguna**
+
+![Beranda Pengguna](screenshots/berandauser.png)
+
+**2. Detail Game**
+
+![Detail Game](screenshots/detailgameuser.png)
+
+**3. Keranjang Belanja**
+
+![Keranjang Belanja](screenshots/keranjanguser.png)
+
+**4. Riwayat Pesanan**
+
+![Riwayat Pesanan](screenshots/riwayatpesananuser.png)
+
+**5. Pelacakan Pesanan**
+
+![Pelacakan Pesanan](screenshots/pacakpesananuser.png)
+
+
+### Halaman Admin
+
+**1. Pesanan Masuk**
+
+![Pesanan Masuk Admin](screenshots/pesananmasukadmin.png)
+
+**2. Manajemen Game**
+
+![Manajemen Game](screenshots/manajemengameolehadmin.png)
+
+**3. Manajemen Item Game**
+
+![Manajemen Item Game](screenshots/manajemenitemgameolehadmin.png)
+
+**4. Manajemen Pengguna**
+
+![Manajemen Pengguna](screenshots/manajemenuserolehadmiin.png)
+
+
+
+## Persyaratan Sistem
+
+Sebelum menjalankan aplikasi, siapkan:
 
 - PHP yang kompatibel dengan kode proyek.
 - MySQL atau MariaDB.
-- XAMPP, Laragon, atau lingkungan server lokal sejenis.
+- XAMPP, Laragon, atau web server lokal sejenis.
 - Browser web modern.
 - Git (opsional, untuk mengkloning repositori).
 
-## 🚀 Instalasi dan Menjalankan Aplikasi
+## Instalasi dan Menjalankan Aplikasi
 
 ### 1. Clone Repositori
 
@@ -76,7 +119,7 @@ Jalankan perintah berikut pada terminal:
 git clone https://github.com/rinda6198/uas-rinda-top-up-game.git
 ```
 
-### 2. Tempatkan Proyek di Folder Server Lokal
+### 2. Tempatkan Proyek
 
 Jika menggunakan XAMPP, letakkan folder proyek di:
 
@@ -90,26 +133,24 @@ Jika menggunakan Laragon, letakkan folder proyek di:
 C:\laragon\www\uas-rinda-top-up-game
 ```
 
-Sesuaikan lokasi folder dengan lingkungan pengembangan yang digunakan.
+### 3. Jalankan Web Server
 
-### 3. Jalankan Web Server dan Database
-
-Buka XAMPP Control Panel atau Laragon, kemudian aktifkan layanan web server dan MySQL/MariaDB.
+Buka XAMPP Control Panel atau Laragon, kemudian aktifkan web server dan MySQL.
 
 ### 4. Siapkan Database
 
-1. Buka phpMyAdmin melalui [http://localhost/phpmyadmin](http://localhost/phpmyadmin).
-2. Buat database baru sesuai dengan konfigurasi aplikasi.
-3. Impor file database berformat `.sql` jika tersedia.
+1. Buka phpMyAdmin melalui `http://localhost/phpmyadmin`.
+2. Buat database sesuai konfigurasi yang digunakan aplikasi.
+3. Impor file database `.sql` jika tersedia.
 4. Pastikan struktur tabel sesuai dengan kebutuhan aplikasi.
 
-**Catatan:** Jika file database belum tersedia di repositori, database perlu diekspor dari lingkungan pengembangan atau disiapkan sesuai struktur yang digunakan oleh aplikasi.
+**Catatan:** Jika file database belum tersedia di repositori, siapkan ekspor database dari lingkungan pengembangan atau buat struktur database sesuai implementasi aplikasi.
 
 ### 5. Konfigurasi Database
 
-Buka file konfigurasi database yang digunakan aplikasi, yaitu `uash/config.php` pada struktur repositori saat ini.
+Periksa file konfigurasi database di folder `uash/`. Jika aplikasi menggunakan `uash/config.php`, sesuaikan konfigurasi koneksi dengan database lokal.
 
-Sesuaikan host, username, password, dan nama database dengan konfigurasi lokal. Contoh konfigurasi umum:
+Contoh konfigurasi umum:
 
 ```php
 $host = "localhost";
@@ -118,72 +159,59 @@ $pass = "";
 $db   = "nama_database";
 ```
 
-Contoh di atas hanya ilustrasi. Sesuaikan dengan nama variabel dan struktur konfigurasi pada file proyek yang sebenarnya.
+Kode di atas hanya contoh. Sesuaikan nama variabel dan konfigurasi dengan file proyek yang sebenarnya.
 
-**Keamanan:** Jangan menyimpan password produksi, kredensial sensitif, atau informasi rahasia lainnya di repositori publik.
+Jangan menyimpan kredensial produksi atau informasi rahasia di repositori publik.
 
 ### 6. Jalankan Aplikasi
 
-Jika folder aplikasi berada di dalam `uash/`, buka alamat berikut melalui browser:
+Jika file utama aplikasi berada di dalam folder `uash/`, coba akses alamat berikut:
 
 ```text
 http://localhost/uas-rinda-top-up-game/uash/
 ```
 
-Jika nama folder atau lokasi `index.php` berbeda, sesuaikan URL dengan struktur proyek yang digunakan.
+Sesuaikan alamat tersebut jika struktur folder atau lokasi file utama berbeda.
 
-## 📁 Struktur Repositori
-
-Gambaran struktur repositori:
+## Struktur Repositori
 
 ```text
 uas-rinda-top-up-game/
-├── .gitignore
 ├── README.md
 ├── screenshots/
 │   ├── home1.png
 │   ├── home2.png
 │   ├── home3.png
-│   └── home4.png
+│   ├── home4.png
+│   ├── berandauser.png
+│   ├── detailgameuser.png
+│   ├── halamanlogin.png
+│   ├── keranjanguser.png
+│   ├── manajemengameolehadmin.png
+│   ├── manajemenitemgameolehadmin.png
+│   ├── manajemenuserolehadmiin.png
+│   ├── pacakpesananuser.png
+│   ├── pesananmasukadmin.png
+│   ├── registerakunuser.png
+│   └── riwayatpesananuser.png
 └── uash/
-    ├── index.php
-    ├── login.php
-    ├── register.php
-    ├── detail-game.php
-    ├── keranjang.php
-    ├── checkout.php
-    ├── lacak.php
-    ├── riwayat.php
-    ├── profile.php
-    ├── config.php
-    ├── admin-dashboard.php
-    ├── admin-games.php
-    ├── admin-items.php
-    ├── admin-users.php
-    ├── uploads/
-    │   ├── games/
-    │   └── items/
-    └── ...
+    └── ... (file aplikasi)
 ```
 
-*Catatan: Struktur di atas merupakan gambaran umum. Nama file dan folder dapat berbeda mengikuti implementasi aktual proyek.*
+## Tujuan Pengembangan
 
-## 🎯 Tujuan Pengembangan
+Proyek ini bertujuan untuk menerapkan konsep pengembangan aplikasi web, integrasi PHP dengan MySQL, pengelolaan data, serta pemisahan fitur pengguna dan admin dalam sebuah website Top Up Game.
 
-Pengembangan aplikasi ini bertujuan untuk menerapkan konsep pengembangan aplikasi web, integrasi PHP dengan MySQL, autentikasi pengguna, pengolahan transaksi, serta pengelolaan data melalui antarmuka admin.
-
-Melalui proyek ini, pengembang juga memperoleh pengalaman dalam membangun aplikasi yang mengintegrasikan antarmuka pengguna, logika aplikasi, dan pengelolaan basis data.
-
-## 👩‍💻 Pengembang
+## Pengembang
 
 **Rinda Wulandari**
 
-Mahasiswa D3 Manajemen Informatika  
+D3 Manajemen Informatika  
 Politeknik Negeri Sriwijaya
 
 - GitHub: [@rinda6198](https://github.com/rinda6198)
-- Repository: [uas-rinda-top-up-game](https://github.com/rinda6198/uas-rinda-top-up-game)
+- Repositori: [uas-rinda-top-up-game](https://github.com/rinda6198/uas-rinda-top-up-game)
 
 ---
 
-Dikembangkan sebagai proyek perkuliahan dan portofolio pengembangan web.
+*Dikembangkan sebagai proyek perkuliahan dan portofolio pengembangan web.*
